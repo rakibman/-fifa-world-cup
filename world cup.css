@@ -1,0 +1,52 @@
+/* common style */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    max-width: 1040px;
+    margin: 0 auto;
+}
+/* custom style */
+/* banner section */
+
+    .banner-section{
+        display: flex;
+        align-items: center;
+        color: white;
+        background-color: black;
+        gap: 50px;
+        border-radius: 20px;
+        margin: 20px auto;
+        
+    }
+    .banner-left{
+        max-width: 400px;
+        padding-left: 40px;
+        margin: 20px auto;
+    }
+    .banner-left h2{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .banner-left p{
+
+        margin: 10px auto;
+    }
+    .banner-btn{
+        font-size: 20px;
+        font-weight: 400;
+        color: #FFFFFF;
+        background-color: #DD0000;
+        padding: 20px 30px;
+        border: none;
+        border-radius: 5px;
+    }
+    .banner-right{
+        max-width: 500px;
+        display: block;
+    }
+
