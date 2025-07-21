@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+     font-family: "Poppins", sans-serif;
 }
 .container{
     max-width: 1040px;
@@ -31,6 +31,7 @@
     .banner-left h2{
         font-size: 50px;
         font-weight: bold;
+        line-height: 50px;
     }
     .banner-left p{
 
