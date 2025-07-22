@@ -49,6 +49,10 @@
   display: block;
 }
 /* upcoming matches left */
+.upcoming-matches {
+  display: flex;
+  gap: 20px;
+}
 .upcoming-matches-left {
   background-color: black;
   width: 25%;
@@ -73,4 +77,32 @@
 }
 .upcoming-matches-left .left-match-btn:nth-child(3) {
   color: white;
+}
+/* upcoming matches right */
+
+.upcoming-matches-right {
+  flex: 1;
+}
+
+.upcoming-matches-right .card img {
+  max-width: 100%;
+  height: 150px;
+  border-radius: 10px 10px 0 0;
+}
+.upcoming-matches-right .card h5 {
+  max-width: 220px;
+}
+.upcoming-matches-right .card button {
+  display: block;
+  max-width: 100px;
+  padding: 4px 16px;
+  margin-bottom: 10px;
+}
+.card-body {
+  padding: 20px;
+}
+.card-bottom {
+  display: flex;
+  gap: 20px;
+  margin-top: 5px;
 }
