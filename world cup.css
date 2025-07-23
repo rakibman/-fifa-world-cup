@@ -138,3 +138,14 @@ li {
   gap: 20px;
   list-style: none;
 }
+@media screen and (max-width: 576px) {
+  .banner-section {
+    flex-direction: column;
+  }
+  .upcoming-matches {
+    flex-direction: column;
+  }
+  .upcoming-matches-right {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
