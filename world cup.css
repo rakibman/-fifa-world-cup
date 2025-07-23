@@ -86,6 +86,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+  margin-bottom: 40px;
 }
 
 .upcoming-matches-right .card img {
@@ -160,6 +161,7 @@ li {
   /* upcoming matches section */
   .upcoming-matches {
     flex-direction: column;
+    margin-bottom: 40px;
   }
   .upcoming-matches-left {
     background-color: transparent;
@@ -167,6 +169,10 @@ li {
   }
   .upcoming-matches-right {
     grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .card {
+    max-width: 260px;
   }
   .upcoming-matches-right .card img {
     max-width: 100%;
@@ -174,16 +180,12 @@ li {
   }
   /* footer section */
 
-  /* .footer-title{
-
-  } */
   .footer-title {
     font-size: 40px;
     margin: 20px auto;
   }
   .footer-section,
   .footer-link {
-    margin-top: 20px;
     flex-direction: column;
     text-align: center;
   }
