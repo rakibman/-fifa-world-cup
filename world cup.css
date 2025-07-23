@@ -172,4 +172,19 @@ li {
     max-width: 100%;
     border-radius: 10px 10px 0 0;
   }
+  /* footer section */
+
+  /* .footer-title{
+
+  } */
+  .footer-title {
+    font-size: 40px;
+    margin: 20px auto;
+  }
+  .footer-section,
+  .footer-link {
+    margin-top: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
 }
