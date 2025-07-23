@@ -139,13 +139,33 @@ li {
   list-style: none;
 }
 @media screen and (max-width: 576px) {
+  .container {
+    margin: 0 15px;
+  }
   .banner-section {
     flex-direction: column;
+  }
+  .banner-left {
+    text-align: center;
+    padding: 0;
+  }
+  .banner-right img {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
   }
   .upcoming-matches {
     flex-direction: column;
   }
+  .upcoming-matches-right .card img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  .upcoming-matches-left {
+    background-color: transparent;
+    width: 100%;
+  }
   .upcoming-matches-right {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
   }
 }
