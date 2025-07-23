@@ -139,9 +139,12 @@ li {
   list-style: none;
 }
 @media screen and (max-width: 576px) {
+  /* commom style  */
   .container {
     margin: 0 15px;
   }
+  /* custom styles */
+  /* banner section */
   .banner-section {
     flex-direction: column;
   }
@@ -154,12 +157,9 @@ li {
     margin: 0 auto;
     display: block;
   }
+  /* upcoming matches section */
   .upcoming-matches {
     flex-direction: column;
-  }
-  .upcoming-matches-right .card img {
-    max-width: 100%;
-    border-radius: 10px 10px 0 0;
   }
   .upcoming-matches-left {
     background-color: transparent;
@@ -167,5 +167,9 @@ li {
   }
   .upcoming-matches-right {
     grid-template-columns: 1fr;
+  }
+  .upcoming-matches-right .card img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
   }
 }
